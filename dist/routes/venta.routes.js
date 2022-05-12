@@ -27,6 +27,7 @@ const middlewares = [
 router.get("/", venta_controller_1.obtenerVentas);
 router.get("/fecha", venta_controller_1.fehaActual);
 router.get("/max", venta_controller_1.maxVenta);
+router.get("/plataformas", venta_controller_1.totalPlataformas);
 router.post("/rango", [
     (0, express_validator_1.check)("desde", "La fecha inicial es obligatoria.").not().isEmpty(),
     (0, express_validator_1.check)("desde", "La fecha inicial debe ser una cadena de texto.").isString(),
@@ -48,5 +49,13 @@ router.put("/editar/:id", [
     (0, express_validator_1.check)("infoVenta", "La información de la venta a editar es obligatoria.").not().isEmpty(),
     validar_campos_1.default
 ], venta_controller_1.actualizarVenta);
+router.post("/plataformas", [
+    (0, express_validator_1.check)("identificador", "El identificador es obligatorio").not().isEmpty(),
+    (0, express_validator_1.check)("total", "El total es obligatorio").not().isEmpty(),
+    (0, express_validator_1.check)("plataforma", "La plataforma es obligatoria.").not().isEmpty(),
+    validar_campos_1.default
+], venta_controller_1.ventaPlataforma);
+router.delete("/plataformas/:id", venta_controller_1.eliminarPlataforma);
+router.delete("/:id", venta_controller_1.eliminarVenta);
 exports.default = router;
 //# sourceMappingURL=venta.routes.js.map

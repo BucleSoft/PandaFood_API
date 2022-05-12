@@ -7,7 +7,7 @@ const sequelize_1 = require("sequelize");
 const connection_1 = __importDefault(require("../database/connection"));
 const Insumo = connection_1.default.define("Insumos", {
     identificador: {
-        type: sequelize_1.DataTypes.STRING,
+        type: sequelize_1.DataTypes.BIGINT,
         primaryKey: true
     },
     nombre: {
@@ -20,7 +20,7 @@ const Insumo = connection_1.default.define("Insumos", {
         type: sequelize_1.DataTypes.STRING
     },
     cantidad: {
-        type: sequelize_1.DataTypes.INTEGER
+        type: sequelize_1.DataTypes.BIGINT
     },
     categoria: {
         type: sequelize_1.DataTypes.STRING

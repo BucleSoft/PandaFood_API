@@ -45,6 +45,12 @@ const Venta = connection_1.default.define("Ventas", {
     },
     descuento: {
         type: sequelize_1.DataTypes.INTEGER
+    },
+    plataforma: {
+        type: sequelize_1.DataTypes.STRING
+    },
+    banco: {
+        type: sequelize_1.DataTypes.STRING
     }
 });
 exports.default = Venta;

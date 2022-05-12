@@ -4,17 +4,18 @@ import Insumo from "../models/insumo";
 export const maxInsumo = async (req: Request, res: Response) => {
     try {
 
-        const maxInsumo: any = (await Insumo.findAll()).reverse();
+        const maxInsumo: any = await Insumo.max('identificador');
         let maxCodigo = 1;
 
-        if (maxInsumo.length !== 0) {
-            maxCodigo = parseInt(maxInsumo.at(0).identificador.split('IN')[1]);
-            maxCodigo = maxCodigo + 1;
+        if (maxInsumo) {
+
+            maxCodigo = maxInsumo + 1;
+
         }
 
-        res.json({
+        return res.json({
             ok: true,
-            maxCodigo: "IN" + maxCodigo
+            maxCodigo
         });
 
     } catch (err) {

@@ -27,15 +27,14 @@ exports.actualizarInsumo = exports.crearInsumo = exports.obtenerUnInsumo = expor
 const insumo_1 = __importDefault(require("../models/insumo"));
 const maxInsumo = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const maxInsumo = (yield insumo_1.default.findAll()).reverse();
+        const maxInsumo = yield insumo_1.default.max('identificador');
         let maxCodigo = 1;
-        if (maxInsumo.length !== 0) {
-            maxCodigo = parseInt(maxInsumo.at(0).identificador.split('IN')[1]);
-            maxCodigo = maxCodigo + 1;
+        if (maxInsumo) {
+            maxCodigo = maxInsumo + 1;
         }
-        res.json({
+        return res.json({
             ok: true,
-            maxCodigo: "IN" + maxCodigo
+            maxCodigo
         });
     }
     catch (err) {

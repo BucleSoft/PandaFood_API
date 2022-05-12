@@ -10,7 +10,7 @@ const router = Router();
 
 const middlewares = [
     check('identificador', 'El identificador del insumo es obligatorio.').not().isEmpty(),
-    check('identificador', 'El identificador debe tener al menos 2 dígitos.').isLength({ min: 2 }),
+    check('identificador', 'El identificador debe ser un valor numérico.').isNumeric(),
     check('nombre', 'El nombre es obligatorio.').trim().not().isEmpty(),
     check('nombre', 'El nombre debe tener al menos 3 caractéres.').isLength({ min: 3 }),
     check('categoria', 'La categoría del insumo es obligatoria.').not().isEmpty(),

@@ -41,6 +41,12 @@ const Venta = db.define("Ventas", {
     },
     descuento: {
         type: DataTypes.INTEGER
+    },
+    plataforma: {
+        type: DataTypes.STRING
+    },
+    banco: {
+        type: DataTypes.STRING
     }
 });
 

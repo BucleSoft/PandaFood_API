@@ -3,7 +3,7 @@ import db from "../database/connection";
 
 const Insumo = db.define("Insumos", {
     identificador: {
-        type: DataTypes.STRING,
+        type: DataTypes.BIGINT,
         primaryKey: true
     },
     nombre: {
@@ -16,7 +16,7 @@ const Insumo = db.define("Insumos", {
         type: DataTypes.STRING
     },
     cantidad: {
-        type: DataTypes.INTEGER
+        type: DataTypes.BIGINT
     },
     categoria: {
         type: DataTypes.STRING

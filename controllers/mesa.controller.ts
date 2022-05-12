@@ -1,6 +1,32 @@
 import { Request, Response } from "express";
 import Mesa from "../models/mesa";
 
+export const maxMesa = async (req: Request, res: Response) => {
+
+    try {
+
+        const maxMesa: any = await Mesa.max("identificador");
+        let maxCodigo = 1;
+
+        if (maxMesa) {
+
+            maxCodigo = maxMesa + 1;
+
+        }
+
+        return res.json({
+            ok: true,
+            maxCodigo
+        });
+
+    } catch (err) {
+        res.json({
+            ok: false,
+            msg: "Error al obtener la última mesa, contacte a los desarrolladores."
+        });
+    }
+}
+
 export const obtenerMesas = async (req: Request, res: Response) => {
 
     try {

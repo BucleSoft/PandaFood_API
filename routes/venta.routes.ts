@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { fehaActual, registrarVenta, maxVenta, obtenerVentas, obtenerVentasRango, actualizarFormaPago, actualizarVenta } from '../controllers/venta.controller';
+import { fehaActual, registrarVenta, maxVenta, obtenerVentas, obtenerVentasRango, actualizarFormaPago, actualizarVenta, ventaPlataforma, totalPlataformas, eliminarPlataforma, eliminarVenta } from '../controllers/venta.controller';
 import validarCampos from "../middlewares/validar-campos";
 
 const router = Router();
@@ -28,6 +28,8 @@ router.get("/fecha", fehaActual);
 
 router.get("/max", maxVenta);
 
+router.get("/plataformas", totalPlataformas);
+
 router.post("/rango", [
     check("desde", "La fecha inicial es obligatoria.").not().isEmpty(),
     check("desde", "La fecha inicial debe ser una cadena de texto.").isString(),
@@ -53,5 +55,17 @@ router.put("/editar/:id", [
     check("infoVenta", "La información de la venta a editar es obligatoria.").not().isEmpty(),
     validarCampos
 ], actualizarVenta);
+
+router.post("/plataformas", [
+    check("identificador", "El identificador es obligatorio").not().isEmpty(),
+    check("total", "El total es obligatorio").not().isEmpty(),
+    check("plataforma", "La plataforma es obligatoria.").not().isEmpty(),
+    validarCampos
+],
+    ventaPlataforma);
+
+router.delete("/plataformas/:id", eliminarPlataforma);
+
+router.delete("/:id", eliminarVenta);
 
 export default router;

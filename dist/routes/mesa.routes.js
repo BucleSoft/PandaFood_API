@@ -17,5 +17,6 @@ router.post("/", [
     (0, express_validator_1.check)("nombre", "El nombre debe contener al menos 4 caracteres.").isLength({ min: 4 }),
     validar_campos_1.default
 ], mesa_controller_1.crearMesa);
+router.get("/max", mesa_controller_1.maxMesa);
 exports.default = router;
 //# sourceMappingURL=mesa.routes.js.map

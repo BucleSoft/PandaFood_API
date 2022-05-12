@@ -11,7 +11,7 @@ const validadores_bd_1 = require("../helpers/insumos/validadores-bd");
 const router = (0, express_1.Router)();
 const middlewares = [
     (0, express_validator_1.check)('identificador', 'El identificador del insumo es obligatorio.').not().isEmpty(),
-    (0, express_validator_1.check)('identificador', 'El identificador debe tener al menos 2 dígitos.').isLength({ min: 2 }),
+    (0, express_validator_1.check)('identificador', 'El identificador debe ser un valor numérico.').isNumeric(),
     (0, express_validator_1.check)('nombre', 'El nombre es obligatorio.').trim().not().isEmpty(),
     (0, express_validator_1.check)('nombre', 'El nombre debe tener al menos 3 caractéres.').isLength({ min: 3 }),
     (0, express_validator_1.check)('categoria', 'La categoría del insumo es obligatoria.').not().isEmpty(),

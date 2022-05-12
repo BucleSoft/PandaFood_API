@@ -12,8 +12,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.nombreMesa = exports.crearMesa = exports.obtenerMesas = void 0;
+exports.nombreMesa = exports.crearMesa = exports.obtenerMesas = exports.maxMesa = void 0;
 const mesa_1 = __importDefault(require("../models/mesa"));
+const maxMesa = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const maxMesa = yield mesa_1.default.max("identificador");
+        let maxCodigo = 1;
+        if (maxMesa) {
+            maxCodigo = maxMesa + 1;
+        }
+        return res.json({
+            ok: true,
+            maxCodigo
+        });
+    }
+    catch (err) {
+        res.json({
+            ok: false,
+            msg: "Error al obtener la última mesa, contacte a los desarrolladores."
+        });
+    }
+});
+exports.maxMesa = maxMesa;
 const obtenerMesas = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const mesas = yield mesa_1.default.findAll();
