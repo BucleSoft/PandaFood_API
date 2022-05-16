@@ -10,6 +10,43 @@ import Observacion from '../models/observaciones';
 import Excepcion from "../models/excepcion";
 import moment from "moment";
 
+export const obtenerVenta = async (req: Request, res: Response) => {
+
+    try {
+
+        const { idVenta } = req.query;
+
+        const identificador: number = parseInt(idVenta as string);
+
+        if (idVenta === null || idVenta === "" || idVenta === undefined) {
+            return res.json({
+                ok: false,
+                msg: "No se encontró la venta, intentelo nuevamente."
+            });
+        }
+
+        const venta = await Venta.findOne({ where: { identificador } });
+
+        if (!venta) {
+            return res.json({
+                ok: false,
+                msg: "No existe la venta solicitada."
+            });
+        }
+
+        res.json({
+            ok: true,
+            venta
+        });
+
+    } catch (err) {
+        res.json({
+            ok: false,
+            msg: "Error interno al encontrar la venta, contacte a los desarrolladores."
+        });
+    }
+}
+
 export const obtenerVentas = async (req: Request, res: Response) => {
 
     const ventas = await Venta.findAll();
@@ -218,7 +255,7 @@ export const restarPuntos = async (identificador: number, puntosVenta: number) =
 export const registrarVenta = async (req: Request, res: Response) => {
     try {
 
-        let { identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, productos, total, puntosGanados, descuento, observaciones } = req.body;
+        let { identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, productos, total, puntosGanados, descuento, observaciones, banco } = req.body;
 
         let venta = await Venta.findOne({ where: { identificador: identificador } });
 
@@ -278,7 +315,7 @@ export const registrarVenta = async (req: Request, res: Response) => {
         }
 
         fecha = Date();
-        venta = Venta.build({ identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, total, puntosGanados, descuento });
+        venta = Venta.build({ identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, total, puntosGanados, descuento, banco });
 
         await venta.save();
 

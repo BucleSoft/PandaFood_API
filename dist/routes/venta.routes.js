@@ -25,6 +25,7 @@ const middlewares = [
     validar_campos_1.default
 ];
 router.get("/", venta_controller_1.obtenerVentas);
+router.get("/factura", venta_controller_1.obtenerVenta);
 router.get("/fecha", venta_controller_1.fehaActual);
 router.get("/max", venta_controller_1.maxVenta);
 router.get("/plataformas", venta_controller_1.totalPlataformas);

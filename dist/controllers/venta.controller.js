@@ -23,7 +23,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.eliminarVenta = exports.eliminarPlataforma = exports.totalPlataformas = exports.ventaPlataforma = exports.actualizarVenta = exports.actualizarFormaPago = exports.registrarVenta = exports.restarPuntos = exports.sumarPuntos = exports.restarInsumo = exports.restarStock = exports.maxVenta = exports.fehaActual = exports.obtenerVentasRango = exports.obtenerVentas = void 0;
+exports.eliminarVenta = exports.eliminarPlataforma = exports.totalPlataformas = exports.ventaPlataforma = exports.actualizarVenta = exports.actualizarFormaPago = exports.registrarVenta = exports.restarPuntos = exports.sumarPuntos = exports.restarInsumo = exports.restarStock = exports.maxVenta = exports.fehaActual = exports.obtenerVentasRango = exports.obtenerVentas = exports.obtenerVenta = void 0;
 const venta_1 = __importDefault(require("../models/venta"));
 const producto_1 = __importDefault(require("../models/producto"));
 const insumo_1 = __importDefault(require("../models/insumo"));
@@ -34,6 +34,36 @@ const sequelize_1 = require("sequelize");
 const observaciones_1 = __importDefault(require("../models/observaciones"));
 const excepcion_1 = __importDefault(require("../models/excepcion"));
 const moment_1 = __importDefault(require("moment"));
+const obtenerVenta = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { idVenta } = req.query;
+        const identificador = parseInt(idVenta);
+        if (idVenta === null || idVenta === "" || idVenta === undefined) {
+            return res.json({
+                ok: false,
+                msg: "No se encontró la venta, intentelo nuevamente."
+            });
+        }
+        const venta = yield venta_1.default.findOne({ where: { identificador } });
+        if (!venta) {
+            return res.json({
+                ok: false,
+                msg: "No existe la venta solicitada."
+            });
+        }
+        res.json({
+            ok: true,
+            venta
+        });
+    }
+    catch (err) {
+        res.json({
+            ok: false,
+            msg: "Error interno al encontrar la venta, contacte a los desarrolladores."
+        });
+    }
+});
+exports.obtenerVenta = obtenerVenta;
 const obtenerVentas = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const ventas = yield venta_1.default.findAll();
     ventas.map((venta) => {
@@ -204,7 +234,7 @@ const restarPuntos = (identificador, puntosVenta) => __awaiter(void 0, void 0, v
 exports.restarPuntos = restarPuntos;
 const registrarVenta = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        let { identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, productos, total, puntosGanados, descuento, observaciones } = req.body;
+        let { identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, productos, total, puntosGanados, descuento, observaciones, banco } = req.body;
         let venta = yield venta_1.default.findOne({ where: { identificador: identificador } });
         if (venta) {
             return res.json({
@@ -252,7 +282,7 @@ const registrarVenta = (req, res) => __awaiter(void 0, void 0, void 0, function*
             }
         }
         fecha = Date();
-        venta = venta_1.default.build({ identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, total, puntosGanados, descuento });
+        venta = venta_1.default.build({ identificador, fecha, tipoVenta, formaPago, precioDomicilio, direccionDomicilio, consume, idMesa, cliente, vendedor, total, puntosGanados, descuento, banco });
         yield venta.save();
         let insumos = [];
         for (const producto of productos) {

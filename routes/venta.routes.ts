@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { fehaActual, registrarVenta, maxVenta, obtenerVentas, obtenerVentasRango, actualizarFormaPago, actualizarVenta, ventaPlataforma, totalPlataformas, eliminarPlataforma, eliminarVenta } from '../controllers/venta.controller';
+import { fehaActual, registrarVenta, maxVenta, obtenerVentas, obtenerVentasRango, actualizarFormaPago, actualizarVenta, ventaPlataforma, totalPlataformas, eliminarPlataforma, eliminarVenta, obtenerVenta } from '../controllers/venta.controller';
 import validarCampos from "../middlewares/validar-campos";
 
 const router = Router();
@@ -23,6 +23,8 @@ const middlewares = [
 ]
 
 router.get("/", obtenerVentas);
+
+router.get("/factura", obtenerVenta);
 
 router.get("/fecha", fehaActual);
 
