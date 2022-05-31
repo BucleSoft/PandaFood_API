@@ -1,0 +1,417 @@
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Servidor corriendo en el puerto 3001
+Base de datos en línea!
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error
+    at Query.run (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\sequelize\dist\lib\dialects\mysql\query.js:52:25)
+    at D:\Proyectos\Proyecto Panda Food\Backend\node_modules\sequelize\dist\lib\sequelize.js:313:28
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async MySQLQueryInterface.insert (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\sequelize\dist\lib\dialects\abstract\query-interface.js:297:21)
+    at async model.save (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\sequelize\dist\lib\model.js:2417:35) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Column 'fecha' cannot be null
+      at Packet.asError (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10) {
+    code: 'ER_BAD_NULL_ERROR',
+    errno: 1048,
+    sqlState: '23000',
+    sqlMessage: "Column 'fecha' cannot be null",
+    sql: 'INSERT INTO `Ventas` (`identificador`,`fecha`,`tipoVenta`,`formaPago`,`precioDomicilio`,`direccionDomicilio`,`consume`,`idMesa`,`cliente`,`vendedor`,`total`,`puntosGanados`,`descuento`,`plataforma`,`banco`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);',
+    parameters: [
+      15,                    null,
+      'Plataformas',         'Tarjeta',
+      null,                  '',
+      'restaurante',         null,
+      0,                     '1113692937',
+      '80000',               12,
+      0,                     'Didi',
+      '',                    '2022-05-28 23:19:00',
+      '2022-05-28 23:19:00'
+    ]
+  },
+  original: Error: Column 'fecha' cannot be null
+      at Packet.asError (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\packets\packet.js:728:17)
+      at Execute.execute (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\commands\command.js:29:26)
+      at Connection.handlePacket (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:456:32)
+      at PacketParser.onPacket (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:85:12)
+      at PacketParser.executeStart (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\mysql2\lib\connection.js:92:25)
+      at Socket.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10) {
+    code: 'ER_BAD_NULL_ERROR',
+    errno: 1048,
+    sqlState: '23000',
+    sqlMessage: "Column 'fecha' cannot be null",
+    sql: 'INSERT INTO `Ventas` (`identificador`,`fecha`,`tipoVenta`,`formaPago`,`precioDomicilio`,`direccionDomicilio`,`consume`,`idMesa`,`cliente`,`vendedor`,`total`,`puntosGanados`,`descuento`,`plataforma`,`banco`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);',
+    parameters: [
+      15,                    null,
+      'Plataformas',         'Tarjeta',
+      null,                  '',
+      'restaurante',         null,
+      0,                     '1113692937',
+      '80000',               12,
+      0,                     'Didi',
+      '',                    '2022-05-28 23:19:00',
+      '2022-05-28 23:19:00'
+    ]
+  },
+  sql: 'INSERT INTO `Ventas` (`identificador`,`fecha`,`tipoVenta`,`formaPago`,`precioDomicilio`,`direccionDomicilio`,`consume`,`idMesa`,`cliente`,`vendedor`,`total`,`puntosGanados`,`descuento`,`plataforma`,`banco`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);',
+  parameters: [
+    15,                    null,
+    'Plataformas',         'Tarjeta',
+    null,                  '',
+    'restaurante',         null,
+    0,                     '1113692937',
+    '80000',               12,
+    0,                     'Didi',
+    '',                    '2022-05-28 23:19:00',
+    '2022-05-28 23:19:00'
+  ]
+}
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (D:\Proyectos\Proyecto Panda Food\Backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:10:32
+    at new Promise (<anonymous>)
+    at generarJWT (D:\Proyectos\Proyecto Panda Food\Backend\dist\helpers\usuarios\generar-jwt.js:8:12)
+    at D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:47:55
+    at Generator.next (<anonymous>)
+    at fulfilled (D:\Proyectos\Proyecto Panda Food\Backend\dist\controllers\auth.controller.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

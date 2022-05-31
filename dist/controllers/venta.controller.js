@@ -676,6 +676,34 @@ const eliminarVenta = (req, res) => __awaiter(void 0, void 0, void 0, function* 
                 }
             }));
         }
+        const ventaBD = yield venta_1.default.findOne({ where: { identificador: id } });
+        if (!ventaBD) {
+            return res.json({
+                ok: false,
+                msg: "Venta no encontrada"
+            });
+        }
+        if (ventaBD.get("tipoVenta") === "Redimir") {
+            const cedula = parseInt(ventaBD.get("cliente"));
+            if (cedula !== 0) {
+                const clienteBD = yield cliente_1.default.findByPk(cedula);
+                if (!clienteBD) {
+                    return res.json({
+                        ok: false,
+                        msg: "Error al encontrar el cliente para devolver los puntos."
+                    });
+                }
+                const puntosBD = parseInt(clienteBD.get("puntos"));
+                const puntos = parseInt(ventaBD.get("total"));
+                const devolverPuntos = yield cliente_1.default.update({ puntos: puntosBD + puntos }, { where: { cedula } });
+                if (!devolverPuntos) {
+                    return res.json({
+                        ok: false,
+                        msg: "Error al restaurar los puntos del cliente."
+                    });
+                }
+            }
+        }
         yield detalle_venta_1.default.destroy({ where: { id_venta: id } });
         yield observaciones_1.default.destroy({ where: { id_venta: id } });
         yield excepcion_1.default.destroy({ where: { id_venta: id } });

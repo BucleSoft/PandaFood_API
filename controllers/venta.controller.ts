@@ -856,7 +856,44 @@ export const eliminarVenta = async (req: Request, res: Response) => {
                 }
 
             });
+        }
 
+        const ventaBD = await Venta.findOne({ where: { identificador: id } });
+
+        if (!ventaBD) {
+            return res.json({
+                ok: false,
+                msg: "Venta no encontrada"
+            });
+        }
+
+        if (ventaBD.get("tipoVenta") === "Redimir") {
+
+            const cedula = parseInt(ventaBD.get("cliente") as string);
+
+            if (cedula !== 0) {
+
+                const clienteBD = await Cliente.findByPk(cedula);
+
+                if (!clienteBD) {
+                    return res.json({
+                        ok: false,
+                        msg: "Error al encontrar el cliente para devolver los puntos."
+                    });
+                }
+
+                const puntosBD = parseInt(clienteBD.get("puntos") as string);
+                const puntos = parseInt(ventaBD.get("total") as string);
+
+                const devolverPuntos = await Cliente.update({ puntos: puntosBD + puntos }, { where: { cedula } });
+
+                if (!devolverPuntos) {
+                    return res.json({
+                        ok: false,
+                        msg: "Error al restaurar los puntos del cliente."
+                    });
+                }
+            }
         }
 
         await Detalle_Venta.destroy({ where: { id_venta: id } });

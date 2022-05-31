@@ -1,0 +1,200 @@
+2022-05-17 18:23:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-17 18:23:02 - Started 6396
+2022-05-17 18:24:01 - Stopping pandafoodservice.exe
+2022-05-17 18:24:01 - ProcessKill 6396
+2022-05-17 18:24:01 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-17 18:24:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-17 18:24:27 - Started 5700
+2022-05-18 05:36:16 - Stopping pandafoodservice.exe
+2022-05-18 05:36:16 - ProcessKill 5700
+2022-05-18 05:36:16 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-18 05:36:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-18 05:36:38 - Started 6052
+2022-05-18 05:40:53 - Stopping pandafoodservice.exe
+2022-05-18 05:40:53 - ProcessKill 6052
+2022-05-18 05:40:53 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-18 05:41:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-18 05:41:13 - Started 6000
+2022-05-18 14:09:29 - Stopping pandafoodservice.exe
+2022-05-18 14:09:29 - ProcessKill 6000
+2022-05-18 14:09:29 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-18 14:09:52 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-18 14:09:52 - Started 5772
+2022-05-19 05:06:09 - Stopping pandafoodservice.exe
+2022-05-19 05:06:09 - ProcessKill 5772
+2022-05-19 05:06:10 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-19 05:06:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-19 05:06:32 - Started 5840
+2022-05-19 05:11:52 - Stopping pandafoodservice.exe
+2022-05-19 05:11:52 - ProcessKill 5840
+2022-05-19 05:11:53 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-19 05:12:13 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-19 05:12:13 - Started 5696
+2022-05-19 16:33:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-19 16:33:49 - Started 5900
+2022-05-21 11:00:20 - Stopping pandafoodservice.exe
+2022-05-21 11:00:20 - ProcessKill 5900
+2022-05-21 11:00:20 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-21 11:27:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-21 11:27:05 - Started 5696
+2022-05-23 12:21:55 - Stopping pandafoodservice.exe
+2022-05-23 12:21:55 - ProcessKill 5696
+2022-05-23 12:21:55 - Found child process: 5704 Name: conhost.exe
+2022-05-23 12:21:55 - Found child process: 2068 Name: node.exe
+2022-05-23 12:21:55 - Stopping process 5704
+2022-05-23 12:21:55 - Send SIGINT 5704
+2022-05-23 12:21:56 - SIGINT to 5704 failed - Killing as fallback
+2022-05-23 12:21:56 - Stopping process 2068
+2022-05-23 12:21:56 - Send SIGINT 2068
+2022-05-23 12:21:56 - SIGINT to 2068 failed - Killing as fallback
+2022-05-23 12:21:56 - Stopping process 5696
+2022-05-23 12:21:56 - Send SIGINT 5696
+2022-05-23 12:21:56 - SIGINT to 5696 failed - Killing as fallback
+2022-05-23 12:21:56 - Finished pandafoodservice.exe
+2022-05-23 12:29:27 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-23 12:29:28 - Started 11884
+2022-05-24 10:40:41 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-24 10:40:42 - Started 5732
+2022-05-28 04:40:01 - Stopping pandafoodservice.exe
+2022-05-28 04:40:01 - ProcessKill 5732
+2022-05-28 04:40:01 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-28 04:40:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 04:40:23 - Started 5936
+2022-05-28 04:43:47 - Stopping pandafoodservice.exe
+2022-05-28 04:43:47 - ProcessKill 5936
+2022-05-28 04:43:47 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-28 04:44:07 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 04:44:07 - Started 5816
+2022-05-28 05:35:50 - Stopping pandafoodservice.exe
+2022-05-28 05:35:50 - ProcessKill 5816
+2022-05-28 05:35:50 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-28 06:02:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 06:02:31 - Started 6116
+2022-05-28 18:05:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 18:05:36 - Started 5460
+2022-05-28 20:43:09 - Stopping pandafoodservice.exe
+2022-05-28 20:43:09 - ProcessKill 5460
+2022-05-28 20:43:10 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-05-28 20:43:30 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\Ajtm0\AppData\Roaming\npm\node_modules\qckwinsvc\node_modules\node-windows\lib\wrapper.js --file "D:\Proyectos\Proyecto Panda Food\Backend\dist\app.js" --log "PandaFoodService wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-05-28 20:43:30 - Started 5904
